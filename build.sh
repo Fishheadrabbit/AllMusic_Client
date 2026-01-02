@@ -92,7 +92,7 @@ while true; do
     
     # 执行Gradle编译
     echo "正在执行Gradle编译..."
-    if ./gradlew build; then
+    if gradle build; then
         echo "编译成功！生成位置：build/libs"
     else
         echo "编译失败，请检查错误信息"
